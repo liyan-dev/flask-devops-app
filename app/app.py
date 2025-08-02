@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return '你好，这是我的第一个 DevOps 项目！'
+    return '原神，启动！'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=True)
